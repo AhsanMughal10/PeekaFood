@@ -11,6 +11,10 @@ import Foundation
 struct Resturants: Encodable,Decodable {
     var id: Int
     var Name: String
+    init() {
+        id = -1
+        Name = ""
+    }
 }
 
 

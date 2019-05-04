@@ -9,8 +9,9 @@
 import Foundation
 
 class TaskManager {
+    
     static let shared = TaskManager()
-    static let serverIP = "http://192.168.1.107:8080/rest/"
+    static let serverIP = "http://172.16.37.46:8080/rest/"
  
     let session = URLSession.shared
     
@@ -25,4 +26,7 @@ class TaskManager {
           
         }).resume()
     }
+    
+   
+
 }
